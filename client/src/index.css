@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Semibold";
+    src: local("GeneralSans-Semibold"), url("./assets/OTF/GeneralSans-Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Regular";
+    src: local("Gilroy-Regular"), url("./assets/OTF/Gilroy-Regular.ttf") format("truetype");
+}
