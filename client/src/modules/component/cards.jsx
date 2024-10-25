@@ -14,10 +14,10 @@ function Card() {
     <>
         <div>
             <Swiper
-                slidesPerView={4}
-                spaceBetween={0}
+                slidesPerView={5}
+                spaceBetween={8}
                 autoplay={{
-                delay: 1000,
+                delay: 0,
                 disableOnInteraction: false,
                 }}
                 loop={true}
@@ -31,6 +31,7 @@ function Card() {
                 <SwiperSlide><img className='w-[300px] h-[200px] rounded-md' src={cardThree} alt={cardThree} /></SwiperSlide>
                 <SwiperSlide><img className='w-[300px] h-[200px] rounded-md' src={cardFour} alt={cardFour} /></SwiperSlide>
                 <SwiperSlide><img className='w-[300px] h-[200px] rounded-md' src={cardFive} alt={cardFive} /></SwiperSlide>
+                <SwiperSlide><img className='w-[300px] h-[200px] rounded-md' src={cardThree} alt={cardThree} /></SwiperSlide>
             </Swiper>
     </div>
     </>

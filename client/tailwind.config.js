@@ -18,10 +18,15 @@ export default {
         'light-grey': '#E9E9E9',
         'lighter-grey': '#F0F0F0',
         'grey': '#FFFFFF',
+        'reddish': '#E76B6B',
+        'greenish': '#11A958',
+        'yellowish': '#BA9512'
       },
       fontFamiy: {
          'general-sans-semibold': ["Semibold"],
-         'gilroy-regular': ["Regular"]
+         'general-sans-bold': ["Bold"],
+         'gilroy-extrabold': ["Extrabold"],
+         'gilroy-light': ["Light"]
       }
     },
   },

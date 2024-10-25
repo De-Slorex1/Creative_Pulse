@@ -1,9 +1,11 @@
-const Services = () => {
-    return ( 
-        <div>
-            <h2>Our Services</h2>
-        </div>
-     );
+import Services from '../../modules/component/services';
+
+function ServicePage() {
+  return (
+    <div>
+        <Services />
+    </div>
+  )
 }
- 
-export default Services;
+
+export default ServicePage;
